@@ -28,7 +28,36 @@ print(y)
 
 #User Input
 
-Name = input ("enter your name:")
+#Name = input ("enter your name:")
 
-print("\nHello", Name,"\nWelcome to Codingal")
+#print("\nHello", Name,"\nWelcome to Codingal")
 
+#Datatypes
+
+a = 5
+print("type of a: ", type (a))
+
+b = 2.5
+print("type of b: ", type (b))
+
+c = "coding"
+print("type of c: ", type (c))
+
+d = True
+print("type of d: ", type (d))
+
+#Type conversion
+
+a = str(a)
+print("type of a: ", type (a))
+
+b = int(b)
+print("type of b: ", type (b)) 
+
+text =str(input("enter your name: "))
+
+revText = text[::-1]
+text = revText
+
+print("reverse of given string is: ")
+print(text)
